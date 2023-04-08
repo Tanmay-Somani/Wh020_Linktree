@@ -23,7 +23,7 @@ def fetch_poster(suggestion):
         ids_index.append(ids)
 
     for idx in ids_index:
-        url = final_rating.iloc[idx]['image_url']
+        url = final_rating.iloc[idx]['img_url']
         poster_url.append(url)
 
     return poster_url
